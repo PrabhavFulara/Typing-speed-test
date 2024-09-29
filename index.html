@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Typing Speed Test</h1>
+  
+  <div id="text-display">Wilma Fox's lazy susan held quince jam, butter, pickles, olives, mustard, and vinegar.</div>
+
+  <input type="text" id="text-input" placeholder="Start typing..." disabled>
+
+  <button id="start-btn">Start Test!</button>
+
+  <!-- Popup Modal -->
+<div id="result-popup" class="modal">
+  <div class="modal-content">
+      <span class="close-button" id="close-popup">&times;</span>
+      <h2>Your Results</h2>
+      <p id="result-text"></p>
+  </div>
+</div>
+
+
+  <div id="stats">
+    <p>Time: <span id="timer">0</span> seconds</p>
+    <p>Words Per Minute (WPM): <span id="wpm">0</span></p>
+    <p>Accuracy: <span id="accuracy">0</span>%</p>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
